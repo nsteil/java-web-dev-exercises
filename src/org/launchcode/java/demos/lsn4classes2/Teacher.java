@@ -44,4 +44,9 @@ public class Teacher {
     public int getYearsTeaching() {
         return yearsTeaching;
     }
+
+    public String toString() {
+        String teacherInfo = String.format("%s %s has been teaching %s for %d years.", this.firstName,this.lastName,this.subject,this.yearsTeaching);
+        return teacherInfo;
+    }
 }
