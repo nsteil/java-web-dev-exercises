@@ -124,5 +124,9 @@ public class Student {
         Teacher professorSteve = new Teacher("steve", "bushman", "stem", 20);
         Course math = new Course("mathematics",professorSteve);
         System.out.println(math);
+        Student steve = new Student("steve");
+        Student mike = new Student("mike");
+        System.out.println(steve.getStudentId());
+        System.out.println(mike.getStudentId());
     }
 }
